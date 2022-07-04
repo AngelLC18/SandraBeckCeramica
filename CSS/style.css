@@ -1,0 +1,27 @@
+.parentFooter{
+    display: grid;
+    grid-template-columns: repeat (3,1fr);
+    grid-template-rows: repeat (3,1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.jamon{
+    background-color: black;
+    color:aqua ;
+    margin-right: auto;
+    margin-bottom: auto;
+    grid-area: 1/1/1/1;
+}
+
+.queso{
+    background-color: black;
+    color:green ;
+    margin-right: auto;
+    margin-bottom: auto;
+    grid-area: 1/1/1/1;
+}
+
+#tomate{
+    color: pink;
+}
