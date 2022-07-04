@@ -14,6 +14,30 @@
     background-color: blue;
 }
 
+#menu {
+    margin-right: auto;
+    margin-bottom: auto;
+    grid-area: 1/1/1/1;
+    list-style: none;
+}
+
+#menu>li {
+    float: left;
+}
+
+#menu li a {
+    background-color: rgb(245, 178, 102);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+    margin: 5px;
+}
+
+#menu li a:hover {
+    background-color: rgb(255, 194, 124);
+}
+
 .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
