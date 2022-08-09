@@ -1,36 +1,3 @@
 body {
-    margin: 0%;
-    padding: 0%;
-}
-
-#menu {
-    margin-right: auto;
-    margin-bottom: auto;
-    grid-area: 2/2/2/2;
-    list-style: none;
-    float: right;
-}
-
-#menu>li {
-    float: left;
-}
-
-#menu li a {
-    background-color: rgb(245, 178, 102);
-    color: #fff;
-    text-decoration: none;
-    padding: 5px;
-    display: block;
-    margin: 3px;
-}
-
-#menu li a:hover {
-    background-color: rgb(255, 194, 124);
-}
-
-.parent {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
-    background-color: rgb(245, 178, 102);
+    background-color: whitesmoke;
 }
