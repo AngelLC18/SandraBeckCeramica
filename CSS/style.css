@@ -52,3 +52,11 @@ body {
     padding: 10px;
     margin-right: 10px;
 }
+
+.menu li a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
