@@ -28,3 +28,10 @@ body {
     position: absolute;
     right: 20px
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 5px;
+}
