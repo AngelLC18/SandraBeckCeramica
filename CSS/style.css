@@ -35,3 +35,8 @@ body {
     justify-content: left;
     margin: 5px;
 }
+
+.logoimg {
+    width: 60px;
+    height: 60px;
+}
