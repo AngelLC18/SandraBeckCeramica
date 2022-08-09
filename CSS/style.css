@@ -66,3 +66,9 @@ li.active {
     background-color: rgb(212, 115, 250);
     transition: .4s;
 }
+
+.main {
+    border: 4px solid rgb(226, 103, 103);
+    margin: 5px;
+    grid-area: contenido;
+}
