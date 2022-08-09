@@ -84,3 +84,14 @@ li.active {
     margin: 5px;
     grid-area: footer;
 }
+
+.info1 {
+    background-color: rgb(245, 110, 245);
+    color: rgb(56, 71, 158);
+    list-style-type: url(buscarimagenlel);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+
+}
