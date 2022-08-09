@@ -60,3 +60,9 @@ body {
     text-transform: uppercase;
     font-size: 14px;
 }
+
+.menu li a:hover,
+li.active {
+    background-color: rgb(212, 115, 250);
+    transition: .4s;
+}
