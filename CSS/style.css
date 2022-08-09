@@ -40,3 +40,9 @@ body {
     width: 60px;
     height: 60px;
 }
+
+.menu {
+    margin: 5px;
+    grid-area: menu;
+    list-style: none;
+}
