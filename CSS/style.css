@@ -20,3 +20,11 @@ body {
     align-items: center;
     position: relative;
 }
+
+.menubar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: absolute;
+    right: 20px
+}
