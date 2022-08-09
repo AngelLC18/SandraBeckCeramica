@@ -31,7 +31,6 @@ body {
 .parent {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 300px;
     grid-gap: 30px;
     background-color: rgb(245, 178, 102);
 }
