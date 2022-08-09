@@ -1,24 +1,14 @@
-.parent_sec {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    background-color: rgb(92, 180, 151);
-}
-
-.menu.navegación {
-    margin-right: auto;
-    margin-bottom: auto;
-    grid-area: 1/1/1/1;
-    background-color: blue;
+body {
+    margin: 0%;
+    padding: 0%;
 }
 
 #menu {
     margin-right: auto;
     margin-bottom: auto;
-    grid-area: 1/1/1/1;
+    grid-area: 2/2/2/2;
     list-style: none;
+    float: right;
 }
 
 #menu>li {
@@ -29,9 +19,9 @@
     background-color: rgb(245, 178, 102);
     color: #fff;
     text-decoration: none;
-    padding: 10px 12px;
+    padding: 5px;
     display: block;
-    margin: 5px;
+    margin: 3px;
 }
 
 #menu li a:hover {
