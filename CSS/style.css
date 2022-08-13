@@ -1,3 +1,4 @@
+
 body {
     background-color: whitesmoke;
 }
@@ -83,4 +84,3 @@ li.active {
     border: 4px solid rgb(51, 61, 204);
     margin: 5px;
     grid-area: footer;
-}
