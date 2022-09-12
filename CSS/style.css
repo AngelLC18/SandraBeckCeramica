@@ -5,7 +5,7 @@
 }
 
 .parent {
-    height: 910px;
+    height: 100vh;
     display: grid;
     grid-template-areas: 'header header' 'contenido lateral' 'footer footer';
     grid-template-rows: 10% auto 10%;
