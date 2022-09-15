@@ -7,7 +7,7 @@
 .parent {
     height: 100vh;
     display: grid;
-    grid-template-areas: 'header header' 'contenido lateral' 'footer footer';
+    grid-template-areas: 'header header' 'contenido contenido ' 'footer footer';
     grid-template-rows: 10% auto 10%;
     grid-template-columns: 70% auto;
 }
@@ -69,11 +69,8 @@ li.active {
     grid-area: contenido;
 }
 
-.sidebar {
-    border: 4px solid rgb(202, 62, 62);
-    grid-area: lateral;
-}
 
 .footer {
     border: 4px solid rgb(51, 61, 204);
     grid-area: footer;
+}
