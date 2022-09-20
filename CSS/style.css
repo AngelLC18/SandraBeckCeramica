@@ -66,6 +66,9 @@ li.active {
 .main {
     border: 4px solid rgb(226, 103, 103);
     grid-area: contenido;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .sidebar {
