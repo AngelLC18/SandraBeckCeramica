@@ -3,6 +3,13 @@
     padding: 0%;
 }
 
+@font-face {
+    font-family: 'Typewriter';
+    src: url('/fonts/Typewriter.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
 .parent {
     height: 100vh;
     display: grid;
