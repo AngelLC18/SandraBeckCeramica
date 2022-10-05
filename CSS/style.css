@@ -80,10 +80,3 @@ li.active {
     border: 4px solid rgb(51, 61, 204);
     grid-area: footer;
 }
-
-.novedades {
-    height: 80%;
-    width: 80%;
-    display: flex;
-    border: 2px solid black;
-}
