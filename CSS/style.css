@@ -99,3 +99,27 @@
 .menu_logo img {
     height: 100%;
 }
+
+#nav_checkbox:checked~ul.nav_menu li {
+    display: block;
+}
+
+#nav_checkbox:checked~label.nav_toggle .close {
+    display: block;
+}
+
+#nav_checkbox:checked~label.nav_toggle .menu {
+    display: block;
+}
+
+@media only screen and (min-width: 500px) {
+    .nav_toggle {
+        display: none;
+    }
+    .nav_menu {
+        flex-direction: row;
+    }
+    .nav_menu li {
+        display: block;
+    }
+}
