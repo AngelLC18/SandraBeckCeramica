@@ -12,14 +12,14 @@
     font-family: 'Typewriter';
     src: url('/fonts/Typewriter.ttf') format('truetype');
     font-style: normal;
-    font-weight: normal;
+    font-weight: lighter;
 }
 
 .parent {
     height: 100vh;
     display: grid;
-    grid-template-areas: 'header header' 'contenido contenido' 'footer footer';
-    grid-template-rows: 7% auto 20%;
+    grid-template-areas: 'header header' 'contenido contenido ' 'footer footer';
+    grid-template-rows: 30% auto 20%;
     grid-template-columns: 100%;
 }
 
@@ -34,6 +34,7 @@
 
 .main {
     grid-area: contenido;
+    display: flex;
 }
 
 .footer {
@@ -93,7 +94,7 @@
 }
 
 .menu_logo {
-    height: 30px;
+    height: 40px;
 }
 
 .menu_logo img {
@@ -109,7 +110,7 @@
 }
 
 #nav_checkbox:checked~label.nav_toggle .menu {
-    display: block;
+    display: none;
 }
 
 @media only screen and (min-width: 500px) {
