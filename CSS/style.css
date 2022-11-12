@@ -196,7 +196,10 @@ header.down {
         transition: 0.6s;
         background-color: white;
     }
-    
+    .social-networks {
+        display: none;
+    }
+
 }
 
 
