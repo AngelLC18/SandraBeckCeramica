@@ -51,3 +51,11 @@ main{
     height: 100vh;
     margin-top: -64.19px;
 }
+
+footer {
+    background: #ffffff;
+    grid-area: footer;
+    height: 64.19px;
+    width: 100%;
+    text-align: center;
+}
