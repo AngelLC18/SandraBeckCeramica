@@ -83,3 +83,11 @@ footer {
         background-image: url(/Images/106717415_729304894570086_2594613772598327110_n.jpg);
     }
 }
+
+.text--medium {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ecf0f1;
+}
