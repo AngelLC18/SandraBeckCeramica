@@ -133,3 +133,8 @@ footer {
 .card__content {
     padding: 20px;
 }
+
+.card__title {
+    margin-bottom: 20px;
+    color: #000000;
+}
