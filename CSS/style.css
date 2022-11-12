@@ -202,7 +202,12 @@ header.down {
     .nav-main__btn-collapse {
         display: none;
     }
-   
+    .nav-main a {
+        color: inherit;
+        text-decoration: none;
+        position: relative;
+    }
+    
 }
 
 
