@@ -1,3 +1,8 @@
 :root{
-    
+    --color-bisque: rgb(228, 195, 171);
+    --color-dark: #030303;
+    --color-white: white;
+    --size-btn-collapse: 10.5rem;
+    --time-animation: 0.3s;
+    --box-shadow: 3px 7px 7px rgba(0 0 0 /22%);
 }
