@@ -155,4 +155,7 @@ footer {
         grid-gap: 20px;
     }
 
+    .card {
+        grid-column-end: span 12;
+    }
 }
