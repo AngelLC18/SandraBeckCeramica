@@ -151,4 +151,8 @@ footer {
         font-size: 2rem;
         height: 364.19px;
     }
+    #products_container {
+        grid-gap: 20px;
+    }
+
 }
