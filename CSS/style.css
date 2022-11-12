@@ -29,3 +29,10 @@ body {
       "main main main"
       "footer footer footer"; 
 }
+header {
+    grid-area: header;
+    background: #ffffff;
+    position: absolute;
+    height: 64.19px;
+    width: 100%;
+}
