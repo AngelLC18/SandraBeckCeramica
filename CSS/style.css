@@ -199,7 +199,10 @@ header.down {
     .social-networks {
         display: none;
     }
-
+    .nav-main__btn-collapse {
+        display: none;
+    }
+   
 }
 
 
