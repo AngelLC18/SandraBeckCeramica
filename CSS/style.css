@@ -36,3 +36,7 @@ header {
     height: 64.19px;
     width: 100%;
 }
+
+main{
+    grid-area: main;
+}
