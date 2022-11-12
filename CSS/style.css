@@ -220,7 +220,12 @@ header.down {
         height: 64.16px;
         left: 0;
     }
-    
+    .nav-menu__menu a {
+        margin-right: 2.3rem;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
 }
 
 
