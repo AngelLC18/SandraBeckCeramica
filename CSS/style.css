@@ -144,3 +144,11 @@ footer {
         grid-column-end: span 6;
     }
 }
+
+@media (max-width: 720px) {
+    .section-main {
+        text-align: center;
+        font-size: 2rem;
+        height: 364.19px;
+    }
+}
