@@ -229,6 +229,10 @@ header.down {
         transition: 0.3s;
         color: rgb(84, 250, 228);
     }
+    .left {
+        position: absolute;
+        left: 2rem;
+    }
 
 }
 
