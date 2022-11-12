@@ -236,7 +236,10 @@ header.down {
     .left i {
         display: none;
     }
-
+    .right {
+        position: absolute;
+        right: 2rem;
+    }
 }
 
 
