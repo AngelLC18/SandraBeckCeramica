@@ -180,3 +180,9 @@ footer {
 header.down {
     background: #ffffffc5;
 }
+
+@keyframes effectOpacity {
+    to {
+        opacity: 1;
+    }
+}
