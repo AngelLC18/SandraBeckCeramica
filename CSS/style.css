@@ -59,3 +59,11 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+#products_container {
+    grid-area: products;
+    display: grid;
+    grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
+    grid-gap: 40px;
+    background-color: #a4edff;
+}
