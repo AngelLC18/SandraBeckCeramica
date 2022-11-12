@@ -240,6 +240,10 @@ header.down {
         position: absolute;
         right: 2rem;
     }
+    .logo {
+        position: absolute;
+        left: 50%;
+    }
 }
 
 
