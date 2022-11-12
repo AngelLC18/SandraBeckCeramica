@@ -207,7 +207,11 @@ header.down {
         text-decoration: none;
         position: relative;
     }
-    
+    .nav-main {
+        display: flex;
+        align-items: center;
+    }
+   
 }
 
 
