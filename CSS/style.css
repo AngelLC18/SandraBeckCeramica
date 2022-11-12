@@ -176,3 +176,7 @@ footer {
     line-height: 80px;
     text-shadow: 0 0 3px #fff, 0 0 3px #000000;
 }
+
+header.down {
+    background: #ffffffc5;
+}
