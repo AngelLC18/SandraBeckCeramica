@@ -244,6 +244,12 @@ header.down {
         position: absolute;
         left: 50%;
     }
+    .logo img {
+        --size: 45px;
+        width: var(--size);
+        height: var(--size);
+        transition: 0.5s;
+    }
 }
 
 
