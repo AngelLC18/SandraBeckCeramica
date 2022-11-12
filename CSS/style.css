@@ -250,6 +250,10 @@ header.down {
         height: var(--size);
         transition: 0.5s;
     }
+    .logo img:hover {
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
 }
 
 
