@@ -233,6 +233,9 @@ header.down {
         position: absolute;
         left: 2rem;
     }
+    .left i {
+        display: none;
+    }
 
 }
 
