@@ -6,3 +6,8 @@
     --time-animation: 0.3s;
     --box-shadow: 3px 7px 7px rgba(0 0 0 /22%);
 }
+*,
+*::before,
+*::after {
+
+}
