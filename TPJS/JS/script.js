@@ -4,9 +4,9 @@ capa = document.getElementById("datos");
 const texto = document.getElementById('texto');
 const sonic = document.getElementById('btn');
 const html = document.querySelector('html');
-const gameover = new Audio ('./audio/gameover.mp3')
-sonic.classList.add('animation');;
-
+const gameover = new Audio ('./audio/gameover.mp3');
+const marble = document.querySelector('audio');
+sonic.classList.add('animation');
 function addElemento(texto) {
     capa = document.getElementById('datos');
     h1 = document.createElement('h1');
@@ -15,19 +15,18 @@ function addElemento(texto) {
 }
 
 sonic.addEventListener('click' ,()=>{
-    html.classList.add('mover')
-    sonic.classList.toggle('morir')
     gameover.play();
+    marble.pause();
+    html.classList.add('mover')
+    sonic.classList.add('morir')
 })
 
 texto.addEventListener('keyup', ()=>{
     textoo = texto.value.length
     if((textoo > 0 && textoo <=30)){
-        sonic.classList.remove('animation');
-        sonic.classList.add('esperando')
+        sonic.classList.replace('animation' , 'esperando');
     }else{
-        sonic.classList.add('animation');
-        sonic.classList.remove('esperando');
+        sonic.classList.replace('esperando' , 'animation');
     }
 
 });
