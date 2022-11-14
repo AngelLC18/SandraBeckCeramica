@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Último Trabajo Práctico</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--1) ¿Cuándo se cree una etiqueta en js, se mueva todo el html?
+        2) ¿Cuándo no se cargue información en los input de un formulario, el botón se tiene que mover?. 
+    -->
+</head>
+<body>
+    <audio  src="audio/sonic-1-music-marble-zone.mp3" autoplay ></audio>
+    <div id="parent">
+        <div class="formu">
+            <form>
+                <label class="tex" for="texto">Ingrese caracteres:</label>
+                <input id="texto" type="text" size="30/">
+                <input type="button" id="btn" onclick="addElemento(getElementById('texto').value);">
+            </form>
+        </div>
+        <div id="datos"></div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>
