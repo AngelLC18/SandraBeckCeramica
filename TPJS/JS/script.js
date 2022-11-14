@@ -7,6 +7,7 @@ const html = document.querySelector('html');
 const gameover = new Audio ('./music/gameover.mp3');
 const marble = document.querySelector('audio');
 sonic.classList.add('animation');
+marble.play();
 
 function addElemento(texto) {
     capa = document.getElementById('datos');
