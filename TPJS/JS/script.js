@@ -4,9 +4,10 @@ capa = document.getElementById("datos");
 const texto = document.getElementById('texto');
 const sonic = document.getElementById('btn');
 const html = document.querySelector('html');
-const gameover = new Audio ('./audio/gameover.mp3');
+const gameover = new Audio ('./music/gameover.mp3');
 const marble = document.querySelector('audio');
 sonic.classList.add('animation');
+
 function addElemento(texto) {
     capa = document.getElementById('datos');
     h1 = document.createElement('h1');
