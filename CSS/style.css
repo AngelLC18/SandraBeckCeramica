@@ -35,6 +35,7 @@ body {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 64.19px 1fr 64.19px; 
+    grid-template-rows: 64.19px 1fr auto; 
     gap: 0px 0px; 
     grid-template-areas: 
       "header header header"
