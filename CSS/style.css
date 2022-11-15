@@ -454,6 +454,7 @@ header.down {
     }
 }
 
+/*footer*/
 footer{
     background-color: var(--color-lightwhite);
     text-align: center;
@@ -469,6 +470,7 @@ footer li{
     margin: 10px;
     display: inline-block;
 }
+
 .icons a{
     background: var(--color-copy);
     color: #000000;
@@ -480,6 +482,11 @@ footer li{
 .icons a:hover{
     color: #ffffff;
     transition: 0.5s;
+}
+
+.menu a{
+    color: #000000;
+    text-transform: capitalize;
 }
 .to-top {
     background: rgb(255, 255, 255);
