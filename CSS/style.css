@@ -501,6 +501,10 @@ footer li{
     text-transform: capitalize;
 }
 
+.footer-copyright p{
+    margin-bottom: 0px;
+}
+
 .to-top {
     background: rgb(255, 255, 255);
     position: fixed;
