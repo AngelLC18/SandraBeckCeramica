@@ -27,6 +27,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+#products_container{ /*scroll correcto de la pagina*/
+    scroll-margin-top: 64px;
 }
 
 .parent {
