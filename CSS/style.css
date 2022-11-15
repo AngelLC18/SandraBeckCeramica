@@ -461,6 +461,9 @@ footer{
     padding-top: 30px;
     margin-top: auto;
 }
+footer a{
+    text-decoration: none;
+}
 .to-top {
     background: rgb(255, 255, 255);
     position: fixed;
