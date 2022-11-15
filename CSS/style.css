@@ -23,7 +23,6 @@ html{
 }
 
 body {
-    font-family: Poppins;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -34,7 +33,6 @@ body {
 .parent {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 64.19px 1fr 64.19px; 
     grid-template-rows: 64.19px 1fr auto; 
     gap: 0px 0px; 
     grid-template-areas: 
@@ -48,6 +46,7 @@ header {
     position: absolute;
     height: 64.19px;
     width: 100%;
+    font-family: 'Poppins';
 }
 
 main{
