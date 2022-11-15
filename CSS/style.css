@@ -69,18 +69,20 @@ footer {
 }
 
 @keyframes animate {
-    0%,
-    100% {
-        background-image: url(/Images/106228462_157309839247481_3787573172164807353_n.jpg);
+    0% {
+        background-image: url(/Images/1.jpg);
     }
     25% {
-        background-image: url(/Images/106273077_577520739790353_8598128563930940891_n.jpg);
+        background-image: url(/Images/2.jpg);
     }
     50% {
-        background-image: url(/Images/106384926_2399000037066659_3468089574427602105_n.jpg);
+        background-image: url(/Images/3.jpg);
     }
     75% {
-        background-image: url(/Images/106717415_729304894570086_2594613772598327110_n.jpg);
+        background-image: url(/Images/4.jpg);
+    }
+    100%{
+        background-image: url(/Images/5.jpg);
     }
 }
 
