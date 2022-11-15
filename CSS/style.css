@@ -95,6 +95,17 @@ footer {
     font-weight: 400;
     color: #ecf0f1;
 }
+#products_container {
+    grid-area: products;
+    display: grid;
+    grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
+    grid-template-rows: 60px 1fr;
+    grid-gap: 40px;
+    grid-template-areas: 
+    "title"
+    "products";
+}
+}
 
 .cards {
     grid-area: products;
