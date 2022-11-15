@@ -454,6 +454,13 @@ header.down {
     }
 }
 
+footer{
+    background-color: var(--color-lightwhite);
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-top: auto;
+}
 .to-top {
     background: rgb(255, 255, 255);
     position: fixed;
