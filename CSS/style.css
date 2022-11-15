@@ -105,6 +105,14 @@ footer {
     "title"
     "products";
 }
+
+.products-title{
+    margin-top: 40px;
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    grid-area: title;
+}
 }
 
 .cards {
