@@ -10,11 +10,12 @@
     <script src="https://kit.fontawesome.com/9b7672ea92.js" crossorigin="anonymous"></script>
     <script src="JS/prueba.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
 </head>
 
 <body>
     <div class="parent">
-        <header class="header">
+        <header>
             <nav class="nav-main">
                 <input type="checkbox" class="nav-main__btn-collapse" id="nav-main__checkbox">
                 <label for="nav-main__checkbox" class="nav-main__btn-collapse-icon">
@@ -34,10 +35,10 @@
                 </div>
                 <div class="nav-menu__menu">
                     <div class="left">
-                        <a href="index.html" class="nav-main__link-item">
+                        <a href="#ini" class="nav-main__link-item">
                             <i class="fa-solid fa-house"></i> Inicio
                         </a>
-                        <a href="catalogo.html" class="nav-main__link-item">
+                        <a href="#products_container" class="nav-main__link-item">
                             <i class="fa-solid fa-bag-shopping"></i> Catalogo
                         </a>
                         <a href="info.html" class="nav-main__link-item">
@@ -46,15 +47,18 @@
                     </div>
                 </div>
                 <div class="logo">
-                    <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
+                    <a href="#ini"><img src="Images/logo.png" alt="logo"></a>
                 </div>
             </nav>
         </header>
         <main class="main">
-            <div class="section-main">
+            <div class="section-main" id="ini">
                 <h1>Sandra Beck Ceramica</h1>
             </div>
             <div id="products_container">
+                <div class="products-title">
+                    <h2 >Nuestros Productos</h2>
+                </div>
                 <section class="cards">
                     <div class="card">
                         <div class="card__image-container">
@@ -247,9 +251,9 @@
                 <li><a href="https://www.instagram.com/beck_sandra/"><ion-icon name="logo-instagram"></ion-icon></a></li>
             </ul>
             <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#ini">Inicio</a></li>
                 <li><a href="info.html">Nosotros</a></li>
-                <li><a href="catalogo.html">Catalogo</a></li>
+                <li><a href="#products_container">Catalogo</a></li>
             </ul>
             <div class="footer-copyright">
                 <p>Copyright @ 2022 Todos los derechos reservados.</p>
