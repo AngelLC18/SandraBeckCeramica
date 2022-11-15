@@ -493,6 +493,14 @@ footer li{
     transition: 0.5s;
 }
 
+.footer-copyright{
+    background-color:var(--color-copy);
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
 .to-top {
     background: rgb(255, 255, 255);
     position: fixed;
