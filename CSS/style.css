@@ -42,7 +42,7 @@ body {
 }
 header {
     grid-area: header;
-    background: #ffffff;
+    background: var(--color-white);
     position: absolute;
     height: 64.19px;
     width: 100%;
@@ -82,7 +82,6 @@ main{
     }
 }
 footer {
-    background: #ffffff;
     grid-area: footer;
     width: 100%;
     text-align: center;
@@ -143,7 +142,7 @@ footer {
     grid-column-end: span 3;
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: --color-white;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -204,7 +203,7 @@ footer {
 }
 
 .section-main h1 {
-    color: rgb(255, 255, 255);
+    color: var(--color-white);
     font-size: 3.8rem;
     font-weight: 700;
     font-style: normal;
@@ -234,7 +233,7 @@ header.down {
         align-items: center;
         padding: 0.6rem;
         transition: 0.6s;
-        background-color: white;
+        background-color: var(--color-white);
     }
     .social-networks {
         display: none;
@@ -395,7 +394,7 @@ header.down {
         animation: effectOpacity var(--time-animation) 0.2s forwards;
     }
     .nav-menu__menu {
-        background-color: white;
+        background-color: var(--color-white);
         position: absolute;
         left: 0;
         top: 64px;
@@ -480,7 +479,7 @@ footer li{
     display: flex;
 }
 .icons a:hover{
-    color: #ffffff;
+    color: var(--color-white);
     transition: 0.5s;
 }
 
@@ -495,7 +494,7 @@ footer li{
 
 .footer-copyright{
     background-color:var(--color-copy);
-    color: #ffffff;
+    color: var(--color-white);
     padding: 15px;
     margin-top: 30px;
     text-transform: capitalize;
@@ -507,7 +506,7 @@ footer li{
 
 /*to-top*/
 .to-top {
-    background: rgb(255, 255, 255);
+    background: var(--color-white);
     position: fixed;
     bottom: 16px;
     right: 32px;
