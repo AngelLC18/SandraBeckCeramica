@@ -15,6 +15,11 @@
     outline: none;
     border: none;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Poppins;
 }
@@ -50,22 +55,6 @@ main{
     align-items: center;
     height: 100vh;
     margin-top: -64.19px;
-}
-
-footer {
-    background: #ffffff;
-    grid-area: footer;
-    height: 64.19px;
-    width: 100%;
-    text-align: center;
-}
-
-#products_container {
-    grid-area: products;
-    display: grid;
-    grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
-    grid-gap: 40px;
-    background-color: #a4edff;
 }
 
 @keyframes animate {
