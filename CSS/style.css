@@ -488,6 +488,11 @@ footer li{
     color: #000000;
     text-transform: capitalize;
 }
+.menu a:hover{
+    color: var(--color-copy);
+    transition: 0.5s;
+}
+
 .to-top {
     background: rgb(255, 255, 255);
     position: fixed;
