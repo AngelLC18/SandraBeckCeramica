@@ -97,6 +97,7 @@ footer {
 }
 
 .cards {
+    grid-area: products;
     margin: 1rem;
     grid-column: 2 / span 12;
     display: grid;
