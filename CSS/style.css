@@ -217,7 +217,7 @@ footer {
 }
 
 header.down {
-    background: #ffffffc5;
+    background: var(--color-lightwhite);
 }
 
 @media (min-width:721px) {
