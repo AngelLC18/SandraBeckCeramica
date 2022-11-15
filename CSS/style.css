@@ -81,6 +81,12 @@ main{
         background-image: url(/Images/5.jpg);
     }
 }
+footer {
+    background: #ffffff;
+    grid-area: footer;
+    width: 100%;
+    text-align: center;
+}
 
 .text--medium {
     font-family: "Poppins", sans-serif;
