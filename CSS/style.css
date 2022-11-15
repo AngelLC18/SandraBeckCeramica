@@ -464,6 +464,11 @@ footer{
 footer a{
     text-decoration: none;
 }
+footer li{
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+}
 .to-top {
     background: rgb(255, 255, 255);
     position: fixed;
