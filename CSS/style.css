@@ -477,6 +477,10 @@ footer li{
     border-radius: 100%;
     display: flex;
 }
+.icons a:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
 .to-top {
     background: rgb(255, 255, 255);
     position: fixed;
