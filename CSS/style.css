@@ -66,19 +66,19 @@ main{
 
 @keyframes animate {
     0% {
-        background-image: url(/Images/1.jpg);
+        background-image: url(/..Images/1.jpg);
     }
     25% {
-        background-image: url(/Images/2.jpg);
+        background-image: url(/..Images/2.jpg);
     }
     50% {
-        background-image: url(/Images/3.jpg);
+        background-image: url(/..Images/3.jpg);
     }
     75% {
-        background-image: url(/Images/4.jpg);
+        background-image: url(/..Images/4.jpg);
     }
     100%{
-        background-image: url(/Images/5.jpg);
+        background-image: url(/..Images/5.jpg);
     }
 }
 footer {
