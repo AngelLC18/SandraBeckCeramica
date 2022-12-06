@@ -24,6 +24,7 @@ body {
     align-items: center;
     position: sticky;
     top: 0px;
+    z-index: 10;
 }
 
 .logo {
@@ -31,6 +32,11 @@ body {
     align-items: center;
     justify-content: left;
     margin: 5px;
+}
+
+.logoimg {
+    width: 100px;
+    height: 100px;
 }
 
 .title {
@@ -47,25 +53,27 @@ body {
 
 }
 
-.logoimg {
-    width: 100px;
-    height: 100px;
-}
-
 /*fin header*/
 
 /*comienzo main*/
 
 .main {
     display: flex;
-    background-color: rgb(227, 143, 143);
-    border: 4px solid rgb(226, 103, 103);
+    flex-direction: column;
+    grid-area: main;
+}
+
+.info{
+    display: flex;
     grid-area: main;
 }
 
 .productos{
     display: flex;
+    background-color: rgb(227, 143, 143);
+    border: 4px solid rgb(226, 103, 103);
     padding: 7px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -79,8 +87,9 @@ body {
 }
 
 .prodimg{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid wheat;
 }
 
 .prod:hover{
