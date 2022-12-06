@@ -65,13 +65,19 @@ body {
 
 .productos{
     display: flex;
+    padding: 7px;
     flex-wrap: wrap;
 }
 
 .prodimg{
     width: 200px;
     height: 200px;
-    margin: 5px;
+    margin: 10px;
+    transition: transform 0.4s;
+}
+
+.prodimg:hover{
+    transform: scale(1.10, 1.10);
 }
 
 /*fin main*/
