@@ -1,6 +1,6 @@
 //Variables//
 var checkBox = document.getElementById("check-brisa-rosada");
-const element = document.querySelector('.demo');
+const element = document.querySelector('.prod');
 //Fin Varialbes//
 
 //Funciones//
