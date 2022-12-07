@@ -6,6 +6,7 @@ body {
     background-color: whitesmoke;
     margin: 0;
     font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
 }
 
 .parent {
@@ -50,7 +51,7 @@ body {
     flex-direction:column ;
     justify-content: left;
     position: absolute;
-    left: 175px
+    left: 150px
 }
 
 .title{
@@ -69,16 +70,9 @@ body {
 }
 
 
-
-
-
-
-
-
 .info{
     grid-area: main;
     display: flex;
-    overflow: hidden;
 }
 
 .text{
@@ -94,7 +88,7 @@ body {
     background: url(fondo/tortugaedit.jpg) repeat-x;
     height: 412.31px;
     width: 2640px;
-    animation: slide 3s linear infinite;
+    animation: slide 17s linear infinite;
     position: absolute;
     z-index: -1;
   }
@@ -107,13 +101,6 @@ body {
       transform: translate(-528px);
     }
   }
-
-
-
-
-
-
-
 
 .productos{
     display: flex;
