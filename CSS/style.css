@@ -68,13 +68,52 @@ body {
     grid-area: main;
 }
 
+
+
+
+
+
+
+
 .info{
-    display: flex;
     grid-area: main;
-    margin: 5%;
-    padding: 4%;
-    background-color: bisque;
+    display: flex;
+    overflow: hidden;
 }
+
+.text{
+    display: flex;
+    font-size: 18px;
+    margin: 5%;
+    padding: 2%;
+    background-color: rgba(255, 228, 196, 0.934);
+}
+
+
+  .movingimage {
+    background: url(fondo/tortugaedit.jpg) repeat-x;
+    height: 412.31px;
+    width: 2640px;
+    animation: slide 3s linear infinite;
+    position: absolute;
+    z-index: -1;
+  }
+
+@keyframes slide {
+    0% {
+      transform: translate(0);
+    }
+    100% {
+      transform: translate(-528px);
+    }
+  }
+
+
+
+
+
+
+
 
 .productos{
     display: flex;
